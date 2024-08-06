@@ -4,7 +4,7 @@
 
 ### Проект был реализован по макету:
 
-[https://www.figma.com/file/qV9FZGELdeKMsk63QLiKXY/Hexlet-LayoutDesigner-Project.-Cognitive-Biases]
+[Figma](https://www.figma.com/file/qV9FZGELdeKMsk63QLiKXY/Hexlet-LayoutDesigner-Project.-Cognitive-Biases)
 
 ### Проект посмотреть можно по ссылке:
 
