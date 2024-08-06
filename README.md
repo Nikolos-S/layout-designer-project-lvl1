@@ -4,4 +4,4 @@
 
 ### Проект посмотреть можно по ссылке:
 
-[Ссылка на проект](cognitive-distortions-nikolos-s.surge.sh)
+[Ссылка на проект](http://cognitive-distortions-nikolos-s.surge.sh/)
