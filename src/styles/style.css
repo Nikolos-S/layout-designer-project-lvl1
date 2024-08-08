@@ -80,6 +80,25 @@ h3 {
   font-size: 34px;
 }
 
+.text-neucha {
+  margin: 0;
+  font-family: 'Neucha Regular', sans-serif;
+}
+
+.size-24 {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.size-34 {
+  font-size: 34px;
+  line-height: 40.8px;
+}
+
+.text-dark {
+  color: var(--dark-200)
+}
+
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -91,7 +110,6 @@ h3 {
 }
 
 .bg-white {
-  position: relative;
   background-color: var(--white-200);
 }
 
@@ -99,16 +117,37 @@ h3 {
   background-color: var(--primary-dark);
 }
 
+.bg-brown {
+  background-color: var(--brown);
+}
+
 .primary {
   color: var(--primary);
+}
+
+.white {
+  color: var(--white-100);
 }
 
 .mt-12 {
   margin: 12px 0 0;
 }
 
-.mb-185 {
-  margin: 0 0 185px;
+.mt-17 {
+  margin: 17px 0 0;
+}
+
+.mt-85 {
+  margin-top: 85px;
+}
+
+
+.mb-180 {
+  margin: 0 0 180px;
+}
+
+.mb-100 {
+  margin: 0 0 100px;
 }
 
 .mb-27 {
@@ -117,6 +156,10 @@ h3 {
 
 .mb-30 {
   margin: 0 0 30px;
+}
+
+.padding-h4 {
+  padding: 5px 10px;
 }
 
 .d-flex {
@@ -139,7 +182,7 @@ h3 {
   text-align: center;
 }
 
-.bg-white::before {
+.bg-custom::before {
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
@@ -157,13 +200,8 @@ h3 {
   height: 525px;
 }
 
-.text-blocks {
-  display: flex;
-  gap: 0 30px;
-}
-
 .text-block {
-  flex: 0 0 50%;
+  flex: 0 0 540px;
 }
 
 .btn {
@@ -180,17 +218,20 @@ h3 {
   opacity: 0.8;
 }
 
-.iframe-container {
+.video-container {
+  display: inline-block;
   top: 184px;
   width: 919px;
   height: 517px;
   margin-top: -184px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  background-image: url("../images/preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-nav h2 {
   font-size: 52px;
-  color: var(--white-100);
 }
 
 .nav-item {
@@ -210,4 +251,20 @@ h3 {
   font-weight: 400;
   font-size: 64px;
   color: var(--primary-dark);
+}
+
+.ikea-bg {
+  display: block;
+  flex: 0 0 434px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h4 {
+  font-family: 'OpenSans Bold', sans-serif;
+  font-size: 16px;
+  line-height: 16.8px;
+  text-transform: uppercase;
+  margin: 0;
 }
