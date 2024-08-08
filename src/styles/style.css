@@ -95,10 +95,6 @@ h3 {
   line-height: 40.8px;
 }
 
-.text-dark {
-  color: var(--dark-200)
-}
-
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -113,6 +109,10 @@ h3 {
   background-color: var(--white-200);
 }
 
+.bg-white100 {
+  background-color: var(--white-100);
+}
+
 .bg-dark {
   background-color: var(--primary-dark);
 }
@@ -121,12 +121,24 @@ h3 {
   background-color: var(--brown);
 }
 
+.dark {
+  color: var(--dark-200)
+}
+
 .primary {
   color: var(--primary);
 }
 
 .white {
   color: var(--white-100);
+}
+
+.white-300 {
+  color: var(--white-300);
+}
+
+.brown {
+  color: var(--brown)
 }
 
 .mt-12 {
@@ -160,6 +172,10 @@ h3 {
 
 .padding-h4 {
   padding: 5px 10px;
+}
+
+.p-footer {
+  padding: 38px 55px 40px;
 }
 
 .d-flex {
@@ -201,7 +217,7 @@ h3 {
 }
 
 .text-block {
-  flex: 0 0 540px;
+  flex: 0 0 calc(50% - 15px);
 }
 
 .btn {
