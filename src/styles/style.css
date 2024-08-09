@@ -264,7 +264,7 @@ h3 {
   margin-top: 24px;
   background-color: var(--primary);
   color: var(--white-100);
-  font-weight: bold;
+  font-family: 'OpenSans Bold';
   text-transform: uppercase;
   text-align: center;
 
