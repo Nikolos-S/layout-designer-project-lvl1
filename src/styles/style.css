@@ -258,7 +258,8 @@ h3 {
 }
 
 .btn {
-  padding: 12px 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   display: inline-block;
   width: 148px;
   margin-top: 24px;
@@ -266,6 +267,7 @@ h3 {
   color: var(--white-100);
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .btn:hover {
@@ -276,7 +278,7 @@ h3 {
   display: inline-block;
   top: 184px;
   width: 919px;
-  height: 569px;
+  height: 517px;
   margin-top: -184px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   background-image: url("../images/preview.png");
