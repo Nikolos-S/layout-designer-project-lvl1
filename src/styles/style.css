@@ -267,6 +267,9 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+
+  height: 49px;
+  box-sizing: border-box;
 }
 
 .btn:hover {
@@ -276,7 +279,7 @@ h3 {
 .video-container {
   display: inline-block;
   top: 184px;
-  width: 920px; 
+  width: 919px; 
   height: 517px;
   margin-top: -184px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
