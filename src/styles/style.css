@@ -284,8 +284,7 @@ h3 {
 .video-container {
   display: inline-block;
   width: 919px;
-  margin: -107px auto 0;
-  bottom: -107px;
+  bottom: -7px;
 }
 
 .preview {
