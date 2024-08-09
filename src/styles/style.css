@@ -258,15 +258,16 @@ h3 {
 }
 
 .btn {
-  padding: 12px 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   display: inline-block;
   width: 148px;
-  height: 49px;
   margin-top: 24px;
   background-color: var(--primary);
   color: var(--white-100);
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .btn:hover {
