@@ -266,10 +266,6 @@ h3 {
   color: var(--white-100);
   font-family: 'OpenSans Bold';
   text-transform: uppercase;
-  text-align: center;
-
-  height: 49px;
-  box-sizing: border-box;
 }
 
 .btn:hover {
