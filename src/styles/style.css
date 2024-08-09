@@ -282,6 +282,7 @@ h3 {
 }
 
 .video-container {
+  display: inline-block;
   width: 919px;
   margin: -207px auto 0;
   bottom: -207px;
