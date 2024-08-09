@@ -280,13 +280,10 @@ h3 {
   display: inline-block;
 
   width: 919px; 
-  height: 517px;
+  height: 569px;
   margin-top: -198px;
   bottom: -198px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-  background-image: url("../images/preview.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .about-nav h2 {
