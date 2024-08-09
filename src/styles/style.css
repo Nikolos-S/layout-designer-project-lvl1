@@ -260,6 +260,7 @@ h3 {
 .btn {
   padding: 12px 24px;
   display: inline-block;
+  width: 148px;
   margin-top: 24px;
   background-color: var(--primary);
   color: var(--white-100);
