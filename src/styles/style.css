@@ -55,6 +55,13 @@ a {
   text-decoration: none;
 }
 
+.default-link {
+  font-size: initial;
+  line-height: initial;
+  color: blue;
+  text-decoration: underline;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -83,6 +90,20 @@ h3 {
 .text-neucha {
   margin: 0;
   font-family: 'Neucha Regular', sans-serif;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.size-12 {
+  font-size: 12px;
+  line-height: 19.2px;
+}
+
+.size-14 {
+  font-size: 14px;
+  line-height: 22.4px;
 }
 
 .size-24 {
@@ -141,6 +162,14 @@ h3 {
   color: var(--brown)
 }
 
+.my-3 {
+  margin: 3px 0;
+}
+
+.margin-input {
+  margin: 9px 0 3px;
+}
+
 .mt-12 {
   margin: 12px 0 0;
 }
@@ -168,6 +197,10 @@ h3 {
 
 .mb-30 {
   margin: 0 0 30px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
 }
 
 .padding-h4 {
@@ -283,4 +316,33 @@ h3 {
   line-height: 16.8px;
   text-transform: uppercase;
   margin: 0;
+}
+
+.form-input {
+  height: 50px;
+  padding: 15px;
+  flex-grow: 1;
+  border: none;
+}
+
+.form-button {
+  position: relative;
+  height: 50px;
+  width: 70px;
+  background-color: var(--primary);
+  border: none;
+  cursor: pointer;
+}
+
+.form-button::before {
+  position: absolute;
+content: url('../images/send.svg');
+top: calc(50% - 13.75px);
+left: calc(50% - 12px);
+}
+.form-button:hover {
+  opacity: 0.8;
+}
+.form-button:active {
+  transform: scale(0.95);
 }
