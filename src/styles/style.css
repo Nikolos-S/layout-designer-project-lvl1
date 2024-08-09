@@ -265,9 +265,8 @@ h3 {
   margin-top: 24px;
   background-color: var(--primary);
   color: var(--white-100);
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
-  box-sizing: border-box;
 }
 
 .btn:hover {
