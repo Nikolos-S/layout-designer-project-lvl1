@@ -243,6 +243,16 @@ h3 {
 .bg-custom {
   position: relative;
 }
+
+.bg-video {
+background: linear-gradient(
+  var(--white-100) 0%,
+  var(--white-100) calc(100% - 100px),
+  var(--primary-dark) calc(100% - 100px),
+  var(--primary-dark) 100%,
+  );
+}
+
 .bg-custom::before {
   position: absolute;
   background-repeat: no-repeat;
