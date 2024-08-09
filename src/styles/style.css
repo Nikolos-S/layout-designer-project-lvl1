@@ -307,6 +307,14 @@ h3 {
   background-color: var(--white-200);
 }
 
+.nav-item h3 {
+line-height: 40.8px;
+}
+
+.nav-item p {
+  line-height: 25.6px;
+}
+
 .nav-item:hover {
   cursor: pointer;
   opacity: 0.8;
