@@ -340,9 +340,11 @@ content: url('../images/send.svg');
 top: calc(50% - 13.75px);
 left: calc(50% - 12px);
 }
+
 .form-button:hover {
   opacity: 0.8;
 }
+
 .form-button:active {
   transform: scale(0.95);
 }
